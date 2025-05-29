@@ -1,0 +1,195 @@
+html {
+  scroll-behavior: smooth;
+  font-family: 'Times New Roman', serif, 'Verdana', 'Tahoma', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: linear-gradient(90deg, #1676fc8f, #1676fc);
+}
+
+.logo img {
+  width: 100px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  transform: translateY(-3px);
+}
+
+#carouselExampleIndicators img {
+  max-height: 500px;
+  width: 10%;
+  object-fit: contain;
+  object-position: center;
+  background-color: #1676fc75;
+}
+
+.frase_efeito {
+  background-color: #043478;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+.frase_efeito h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.beneficios,
+.cards-sobre {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  font-size: large;
+  color: #043478;
+  background-color: #1676fc75;
+}
+
+.cards-texto {
+  background-color: #1676fc75; 
+  padding: 1rem;
+  border-radius: 30px;
+  width: 30%;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+
+.duvidas {
+  padding: 2rem;
+  background-color: #043478;
+  color: #fff;
+}
+
+.duvidas details {
+  margin-bottom: 1rem;
+}
+
+.feedbacks {
+  background-color: #1676fc75;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.review {
+  border-radius: 30px;
+  background: #1676fc75;
+  padding: 1rem;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #043478;
+  margin-top: 30px;
+}
+
+.formulario{
+  background-color: #1676fc75;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+ 
+form {
+  background-color: #1676fc75; 
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 300px;
+  padding: 20px;
+  margin: auto;
+} 
+
+.footer-content {
+  background: linear-gradient(90deg, #1676fc8f, #1676fc);
+  height: auto;
+  padding: 2rem 1rem;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contato-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.instagram-link,
+.whatsapp-link {
+  color: #043478;
+  font-weight: bold;
+}
+
+.instagram-link:hover,
+.whatsapp-link:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .cards-sobre,
+  .beneficios {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cards-texto {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feedbacks {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .frase_efeito h2 {
+    font-size: 1.2rem;
+  }
+
+  .carrossel {
+    padding: 2rem 1rem;
+    background-color: #1676fc75;
+
+  }
+
+  footer {
+    padding: 1rem 0.5rem;
+  }
+
+  footer .contato-content {
+    gap: 2rem;
+    justify-content: center;
+  }
+}
