@@ -121,7 +121,7 @@ form {
   margin: auto;
 } 
 
-.footer-content {
+footer {
   background: linear-gradient(90deg, #1676fc8f, #1676fc);
   height: auto;
   padding: 2rem 1rem;
@@ -133,6 +133,7 @@ form {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .instagram-link,
